@@ -1,12 +1,13 @@
-# fly.toml file generated for spring-boot-flyio on 2022-09-14T11:37:49+02:00
+# fly.toml file generated for alex-spring-boot-flyio on 2023-04-09T15:01:25+02:00
 
-app = "spring-boot-flyio"
+app = "alex-spring-boot-flyio"
 kill_signal = "SIGINT"
 kill_timeout = 5
+primary_region = "cdg"
 processes = []
 
 [build]
-  image = "ghcr.io/jonashackt/spring-boot-flyio:latest"
+  image = "ghcr.io/alexandredepape/spring-boot-flyio:latest"
 
 [env]
 
